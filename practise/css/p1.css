@@ -1,0 +1,20 @@
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	.box{
+		width: 100%;
+	}
+	.box section {
+		width: 28%;
+		float: left;
+		margin: 4% 0 0 4%;
+		background: #fea500;
+		border-radius: 6px;
+	}
+	.box section:before {
+		content: "";
+		padding-top: 100%;
+		display: block;
+	}
